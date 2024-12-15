@@ -1,0 +1,14 @@
+numpy
+pandas
+yfinance
+scipy
+matplotlib
+ipykernel
+jupyter
+nbformat
+plotly
+Quandl
+scikit-learn
+streamlit
+xgboost
+distutils
