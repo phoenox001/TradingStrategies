@@ -560,14 +560,14 @@ company_names = names["Name"].tolist()
 stock_symbols = names.index.tolist()
 companies = list(zip(company_names, stock_symbols))
 
-# select the company and stock symbol
-stock_name = st.selectbox(
-    "Select the stock", companies, format_func=lambda x: x[0] + ", (" + x[1] + ")"
-)
-if "stock_name" not in st.session_state:
-    st.session_state.stock_name = stock_name[0]
-else:
-    st.session_state.stock_name = stock_name[0]
+# # select the company and stock symbol
+# stock_name = st.selectbox(
+#     "Select the stock", companies, format_func=lambda x: x[0] + ", (" + x[1] + ")"
+# )
+# if "stock_name" not in st.session_state:
+#     st.session_state.stock_name = stock_name[0]
+# else:
+#     st.session_state.stock_name = stock_name[0]
 
 # get stock ticker data for one stock
 ticker_Data = sp500_stock_symbols.loc[
