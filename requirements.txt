@@ -7,8 +7,9 @@ ipykernel
 jupyter
 nbformat
 plotly
-Quandl
 scikit-learn
-streamlit
 xgboost
 distutils
+ta
+torch
+tochvision
